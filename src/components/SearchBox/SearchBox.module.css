@@ -1,0 +1,12 @@
+.serchContain {
+  display: flex;
+  margin-top: 30px;
+}
+
+.serchInput {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 18px;
+}
