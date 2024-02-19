@@ -16,10 +16,11 @@ export const SearchBox = () => {
 
   return (
     <div>
-      <label htmlFor={id}>Finde contacts by name</label>
+      {/* <label htmlFor={id}>Finde contacts by name</label> */}
       <input
         id={id}
         className={css.serchInput}
+        placeholder="Find users"
         value={filter}
         type="text"
         onChange={handleChange}
