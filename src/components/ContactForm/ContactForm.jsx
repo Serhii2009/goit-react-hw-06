@@ -8,13 +8,7 @@ export const ContactForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = (values, actions) => {
-    const newContact = {
-      id: values.id,
-      name: values.name,
-      number: values.number,
-    };
-
-    dispatch(addContact(newContact));
+    dispatch(addContact(values));
     actions.resetForm();
   };
   const initialValues = { id: "", name: "", number: "" };
